@@ -17,7 +17,7 @@ export class DashboardPage implements OnInit {
     public authService: AuthenticationService,
     private alertCtrl: AlertController, 
     private toastCtrl: ToastController, 
-    private actionSheetCtrl: ActionSheetController
+    private actionSheetCtrl: ActionSheetController,
   ){ 
 
     let taskJson = localStorage.getItem('taskDb')
